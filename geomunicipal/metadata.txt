@@ -8,7 +8,7 @@ about=GeoMunicípio lets you type the name of any of Brazil's 5,570 municipaliti
     PT-BR: Digite o nome (com ou sem acento) ou o código IBGE de um município e o GeoMunicípio dá zoom no limite oficial do IBGE, destacando-o no mapa e, se desejar, adicionando-o a uma camada.
 version=0.1.0
 author=GGOMESX
-email=seu.email@exemplo.com
+email=gomes.gustavo@outlook.com.br
 homepage=https://github.com/GGOMESX/GeoMunicipal
 tracker=https://github.com/GGOMESX/GeoMunicipal/issues
 repository=https://github.com/GGOMESX/GeoMunicipal

@@ -23,8 +23,8 @@ from qgis.core import (
 
 from . import ibge
 
-SETTINGS_PREFIX = "geomunicipio/"
-LAYER_PROPERTY = "geomunicipio/results_layer"
+SETTINGS_PREFIX = "geomunicipal/"
+LAYER_PROPERTY = "geomunicipal/results_layer"
 
 
 def setting(key, default=None, type_=str):
@@ -47,7 +47,7 @@ class GeoMunicipioService(QObject):
         self.iface = iface
         self.index = ibge.MunicipioIndex()
         self.cache_path = os.path.join(
-            QgsApplication.qgisSettingsDirPath(), "geomunicipio", "municipios.json")
+            QgsApplication.qgisSettingsDirPath(), "geomunicipal", "municipios.json")
         self._replies = set()
         self._list_reply = None
 

@@ -14,7 +14,7 @@ class GeoMunicipioLocatorFilter(QgsLocatorFilter):
         return GeoMunicipioLocatorFilter(self.service)
 
     def name(self):
-        return "geomunicipio"
+        return "geomunicipal"
 
     def displayName(self):  # noqa: N802
         return self.tr("Municípios do Brasil (GeoMunicípio)")
