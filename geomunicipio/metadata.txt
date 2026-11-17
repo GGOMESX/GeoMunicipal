@@ -1,0 +1,22 @@
+[general]
+name=GeoMunicípio
+qgisMinimumVersion=3.22
+qgisMaximumVersion=4.99
+supportsQt6=True
+description=Find and zoom to any Brazilian municipality by name or IBGE code (Localize municípios brasileiros pelo nome ou código IBGE).
+about=GeoMunicípio lets you type the name of any of Brazil's 5,570 municipalities (accent-insensitive, filterable by state) or its 7-digit IBGE code and instantly zoom to its official IBGE boundary (SIRGAS 2000). The boundary is highlighted on the map and can optionally be stored in a memory layer. Also available from the QGIS Locator bar (Ctrl+K) with the prefix "mun". Data comes from the public IBGE APIs (servicodados.ibge.gov.br); the list of municipalities is cached locally. No external Python dependencies.
+    PT-BR: Digite o nome (com ou sem acento) ou o código IBGE de um município e o GeoMunicípio dá zoom no limite oficial do IBGE, destacando-o no mapa e, se desejar, adicionando-o a uma camada.
+version=0.1.0
+author=GGOMESX
+email=seu.email@exemplo.com
+homepage=https://github.com/GGOMESX/GeoMunicipal
+tracker=https://github.com/GGOMESX/GeoMunicipal/issues
+repository=https://github.com/GGOMESX/GeoMunicipal
+tags=brasil,brazil,ibge,município,municipality,search,locator,zoom,geocoding
+category=Web
+icon=icon.svg
+experimental=True
+deprecated=False
+hasProcessingProvider=no
+changelog=
+    0.1.0 - Primeira versão: busca por nome/código, filtro por UF, zoom e destaque do limite IBGE, camada de resultados, integração com a barra Localizador.
